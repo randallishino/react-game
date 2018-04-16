@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Kobe Bryant",
+        "image": "https://media.giphy.com/media/JJ0f57S94Ujyo/giphy.gif"
+    },
+    {
+        "id": 2,
+        "name": "Lebron James",
+        "image": "https://media.giphy.com/media/26vUGuV1WxhbkEKZy/giphy.gif"
+    },
+    {
+        "id": 3,
+        "name": "Russell Westbrook",
+        "image": "https://media.giphy.com/media/3oz8xOP8Gqt51V4qmQ/giphy.gif"
+    },
+    {
+        "id": 4,
+        "name": "Stephen Curry",
+        "image": "https://media.giphy.com/media/3o85xoziinBxxCphew/giphy.gif"
+    },
+    {
+        "id": 5,
+        "name": "Kevin Durant",
+        "image": "https://media.giphy.com/media/l0Exqtt8oFZjJr4Q0/giphy.gif"
+    },
+    {
+        "id": 6,
+        "name": "James Harden",
+        "image": "https://media.giphy.com/media/l0MYw2cRzhKpe0pIQ/giphy.gif"
+    },
+    {
+        "id": 7,
+        "name": "Anthony Davis",
+        "image": "https://media.giphy.com/media/FoYqp4efw9HRC/giphy.gif"
+    },
+    {
+        "id": 8,
+        "name": "Damian Lillard",
+        "image": "https://media.giphy.com/media/YJwEpxvASVthm/giphy.gif"
+    },
+    {
+        "id": 9,
+        "name": "Kyrie Irving",
+        "image": "https://media.giphy.com/media/xTiTnLR1i2bNHNAKwU/giphy.gif"
+    },
+    {
+        "id": 10,
+        "name": "Giannis Antetokounmpo",
+        "image": "https://media.giphy.com/media/3o6wruTCKmugNTQngk/giphy.gif"
+    }
+]
