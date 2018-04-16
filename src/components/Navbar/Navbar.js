@@ -9,8 +9,10 @@ const Nav = props => (
             NBA React Memory Game
         </Navbar.Text>
         <Navbar.Text className="nav-score">
-            {props.children}
+        <li>Score: <span>{props.counter}</span> | High Score: {props.highScore}</li>
         </Navbar.Text>
     </Navbar>
   );
   
+
+export default Nav;
