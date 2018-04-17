@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from 'react-bootstrap';
-
+import "./Navbar.css";
 const Nav = props => (
 
 
@@ -9,7 +9,8 @@ const Nav = props => (
             NBA React Memory Game
         </Navbar.Text>
         <Navbar.Text className="nav-score">
-        <li>Score: <span>{props.counter}</span> | High Score: {props.highScore}</li>
+        <p className="score">Score: <span>{props.counter}</span></p>
+        <p className="high-score">High Score: {props.highScore}</p>
         </Navbar.Text>
     </Navbar>
   );
