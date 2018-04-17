@@ -18,16 +18,18 @@
 .score {
     position: absolute;
     margin-left: 100px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
 
 }
 
 .high-score {
     margin-left: 400px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
 
 }
 
-.navbar.nav-title{ 
-    color:blue;
+#root > div > nav > div > p.nav-title.navbar-text {
+    font-size: 43px;
 }

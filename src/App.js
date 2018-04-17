@@ -91,7 +91,7 @@ render() {
       counter={this.state.counter}
       highScore={this.state.highScore}
       />
-      <Title>{this.state.headline}</Title>
+      <Title className="headline">{this.state.headline}</Title>
       {this.state.friends.map(friend => (
         <FriendCard
           gameCounter={this.gameCounter}

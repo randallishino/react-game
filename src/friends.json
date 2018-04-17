@@ -48,5 +48,16 @@
         "id": 10,
         "name": "Giannis Antetokounmpo",
         "image": "https://media.giphy.com/media/3o6wruTCKmugNTQngk/giphy.gif"
+    },
+    {
+        "id": 11,
+        "name": "Michael Jordan",
+        "image": "https://media.giphy.com/media/lrf5jEbnpVUek/giphy.gif"
+    },
+    {
+        "id": 12,
+        "name": "Vince Carter",
+        "image": "https://media.giphy.com/media/l46C73MlT3XjvTaA8/giphy.gif"
     }
+    
 ]
