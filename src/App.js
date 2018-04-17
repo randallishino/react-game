@@ -7,7 +7,7 @@ import Nav from "./components/Navbar";
 import friends from "./friends.json";
 
 
-
+// counters and arrays to be used
 let counter=0;
 let nbaArray=[];
 let highScore=0;
@@ -15,6 +15,7 @@ let headline="Test your knowledge of memory. Click a gif but not the same one tw
 
 class App extends Component {
   
+  // setting state to track game progress
 state = {
   friends,
   counter,
@@ -24,18 +25,18 @@ state = {
 
 
 
-
+// shuffle array algorithm
 shuffle = array => {
   let currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
+  // While there remain elements to shuffle
   while (0 !== currentIndex) {
 
-    // Pick a remaining element...
+    // Pick a remaining element
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
-    // And swap it with the current element.
+    // And swap it with the current element
     temporaryValue = array[currentIndex];
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
@@ -44,12 +45,12 @@ shuffle = array => {
   return array;
 };
 
-
+// game logic
 gameCounter = id => {
-
   nbaArray.push(id);
+
+  // create new array with all elements that pass the idCheck
   const newArr = nbaArray.filter(idCheck=>idCheck===id);
-  console.log(newArr);
   if (newArr.length>1){
     nbaArray=[];
     headline="Incorrect! You clicked it already";
@@ -59,10 +60,13 @@ gameCounter = id => {
       
     
     }
+    // reset score to 0 if clicked twice
     counter = 0;
     this.setState({headline, highScore});
     
   } 
+
+  // increment score and adjust the state
   else{
     counter++;
     headline="Correct! One point added";
@@ -71,7 +75,10 @@ gameCounter = id => {
     
   }
 
+  // shuffle images on each click
   this.shuffle(friends);
+
+  // update the state
   this.setState({ friends, headline, highScore, counter });
 };
 

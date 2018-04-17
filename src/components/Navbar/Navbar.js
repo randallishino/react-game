@@ -6,7 +6,7 @@ const Nav = props => (
 
     <Navbar>
         <Navbar.Text className="nav-title">
-            NBA React Memory Game
+         NBA React Memory Game
         </Navbar.Text>
         <Navbar.Text className="nav-score">
         <p className="score">Score: <span>{props.counter}</span></p>
