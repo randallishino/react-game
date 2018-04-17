@@ -18,8 +18,12 @@
 .score {
     position: absolute;
     margin-left: 100px;
+    font-family: 'Merriweather', serif;
+
 }
 
 .high-score {
     margin-left: 400px;
+    font-family: 'Merriweather', serif;
+
 }
